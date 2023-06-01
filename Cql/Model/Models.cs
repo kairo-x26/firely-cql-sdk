@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace Ncqa.Cql.Model
+namespace Hl7.Cql.Model
 {
     public static class Models
     {
-        private static XmlSerializer xmlSerializer = new XmlSerializer(typeof(ModelInfo));
-        private static Lazy<ModelInfo> _Fhir401 = new Lazy<ModelInfo>(() => LoadEmbeddedResource("Fhir401"), true);
+        private static XmlSerializer xmlSerializer = new(typeof(ModelInfo));
+        private static Lazy<ModelInfo> _Fhir401 = new(() => LoadEmbeddedResource("Fhir401"), true);
         
         public static ModelInfo Fhir401 => _Fhir401.Value;
         
