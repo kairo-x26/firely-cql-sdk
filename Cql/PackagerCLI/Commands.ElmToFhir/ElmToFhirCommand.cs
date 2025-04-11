@@ -22,7 +22,7 @@ internal record ElmToFhirCommand(
     bool? JsonPretty)
 {
     public const string Name =
-        "elm-to-fhir";
+        "elm";
 
     public const string Description =
         "Converts ELM to C# and .NET assemblies, and package them together with CQL into FHIR resources.";
@@ -56,8 +56,8 @@ internal record ElmToFhirCommand(
         (Cs, [ElmToFhirOptions.ConfigSection, nameof(ElmToFhirOptions.Cs)]),
         (Dll, [ElmToFhirOptions.ConfigSection, nameof(ElmToFhirOptions.Dll)]),
         (Fhir, [ElmToFhirOptions.ConfigSection, nameof(ElmToFhirOptions.Fhir)]),
-        (CanonicalRootUrl, [PackagingBindOptions.ConfigSection, nameof(PackagingBindOptions.CanonicalRootUrl)]),
-        (OverrideUtcDateTime, [PackagingBindOptions.ConfigSection, nameof(PackagingBindOptions.OverrideDate)]),
-        (JsonPretty, [PackagingBindOptions.ConfigSection, nameof(PackagingBindOptions.JsonPretty)]),
+        (CanonicalRootUrl, [FhirOptions.ConfigSection, nameof(FhirOptions.CanonicalRootUrl)]),
+        (OverrideUtcDateTime, [FhirOptions.ConfigSection, nameof(FhirOptions.OverrideDate)]),
+        (JsonPretty, [ElmToFhirOptions.ConfigSection, nameof(ElmToFhirOptions.JsonPretty)]),
     ];
 }

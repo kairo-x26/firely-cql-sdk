@@ -23,9 +23,9 @@ internal sealed class ElmToFhirProgram
 (
     ILoggerFactory loggerFactory,
     ILogger<ElmToFhirProgram> logger,
-    IOptions<CqlBindOptions> cqlOptions,
+    IOptions<CqlOptions> cqlOptions,
     IOptions<ElmOptions> elmOptions,
-    IOptions<PackagingBindOptions> packagingOptions,
+    IOptions<FhirOptions> fhirOptions,
     IOptions<ElmToFhirOptions> elmToFhirOptions) : IProgram
 {
     public int Run()
@@ -33,7 +33,7 @@ internal sealed class ElmToFhirProgram
         var opt = elmToFhirOptions.Value;
         var cqlOpt = cqlOptions.Value;
         var elmOpt = elmOptions.Value;
-        var packOpt = packagingOptions.Value;
+        var fhirOpt = fhirOptions.Value;
 
         if ((opt.Cs, opt.Dll, opt.Fhir) == (null, null, null))
         {
@@ -92,7 +92,7 @@ internal sealed class ElmToFhirProgram
         }
 
         Mutator<JsonSerializerOptions>? configureJsonSerializerOptions = null;
-        if (packOpt.JsonPretty)
+        if (opt.JsonPretty)
             configureJsonSerializerOptions = options =>
             {
                 options.WriteIndented = true;
@@ -102,7 +102,7 @@ internal sealed class ElmToFhirProgram
         if (opt.Fhir is not null)
             packagingToolkit
                 .AddPackagingInputsFromCqlAndElmToolkits(cqlToolkit, elmToolkit)
-                .ConvertToFhirResources(packOpt.CanonicalRootUrl, packOpt.OverrideDate)
+                .ConvertToFhirResources(fhirOpt.CanonicalRootUrl, fhirOpt.OverrideDate)
                 .SaveFhirResourcesToDirectory(
                     opt.Fhir,
                     DirectoryPreparationStrategy.CreateFileDeletionDirectoryHandler("*.json"),
