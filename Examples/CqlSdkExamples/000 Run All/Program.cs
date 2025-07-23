@@ -1,3 +1,5 @@
+namespace CqlSdkExamples;
+
 partial class Program
 {
     void RunAll()
