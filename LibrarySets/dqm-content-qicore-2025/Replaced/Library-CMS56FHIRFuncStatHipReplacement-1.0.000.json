@@ -8,27 +8,7 @@
       "parameter": [
         {
           "name": "translatorVersion",
-          "valueString": "3.29.0"
-        },
-        {
-          "name": "option",
-          "valueString": "EnableLocators"
-        },
-        {
-          "name": "option",
-          "valueString": "EnableResultTypes"
-        },
-        {
-          "name": "signatureLevel",
-          "valueString": "All"
-        },
-        {
-          "name": "compatibilityLevel",
-          "valueString": "1.5"
-        },
-        {
-          "name": "format",
-          "valueString": "JSON"
+          "valueString": "0.0.0"
         }
       ]
     }
