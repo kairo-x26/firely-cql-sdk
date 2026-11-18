@@ -9,7 +9,7 @@ HTML→Markdown logic (`html_to_markdown.py`):
 
 **Created in:** PR for "Experimental - Using AI to verify codebase conformance with CQL spec"  
 **Branch:** `copilot/validate-cql-conformance`  
-**Extended in:** [#1389](https://github.com/FirelyTeam/firely-cql-sdk/issues/1389) to add the FHIR
+**Extended in:** [#1389](https://github.com/kairo-x26/firely-cql-sdk/issues/1389) to add the FHIR
 fetch tool and split output by technology (`spec/cql/`, `spec/fhir/`)
 
 ## Versioning
@@ -105,12 +105,12 @@ This tool was created as part of the CQL specification conformance analysis work
 "Experimental - Using AI to verify codebase conformance with CQL spec", branch
 `copilot/validate-cql-conformance`). The condensed CQL spec enabled an AI-assisted analysis pass
 that found several real conformance bugs; those findings are now tracked as GitHub issues under
-epic [#1193](https://github.com/FirelyTeam/firely-cql-sdk/issues/1193) rather than as markdown
+epic [#1193](https://github.com/kairo-x26/firely-cql-sdk/issues/1193) rather than as markdown
 reports in the repo (see `spec/report/README.md`).
 
 ## Future Use
 
 Re-run `condense_spec.py` whenever a newer CQL spec errata is vendored into `spec/cql/source/`, and
 run `fetch_fhir_page.py` against the FHIR pages tracked in `spec/fhir/README.md` whenever those
-pages might have changed. See [#1389](https://github.com/FirelyTeam/firely-cql-sdk/issues/1389) for
+pages might have changed. See [#1389](https://github.com/kairo-x26/firely-cql-sdk/issues/1389) for
 the plan to make this periodic rather than ad hoc.

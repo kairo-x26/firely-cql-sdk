@@ -26,4 +26,4 @@ This package enables CQL expressions to work with FHIR resources and data types 
 
 ## Further Reading
 
-This package is part of the [Firely CQL SDK](https://github.com/FirelyTeam/firely-cql-sdk). For getting started, release notes, and contribution guidelines, see the [main README](../../README.md).
+This package is part of the [Firely CQL SDK](https://github.com/kairo-x26/firely-cql-sdk). For getting started, release notes, and contribution guidelines, see the [main README](../../README.md).

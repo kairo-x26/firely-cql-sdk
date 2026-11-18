@@ -4,7 +4,7 @@ Compares the vendored CQL conformance test suite (`Cql/CqlToElmTests/Input/DQIC/
 current official suite published at https://cql.hl7.org/tests.zip, and produces a markdown report
 for manual review.
 
-**Created in:** [#1389](https://github.com/FirelyTeam/firely-cql-sdk/issues/1389), after finding the
+**Created in:** [#1389](https://github.com/kairo-x26/firely-cql-sdk/issues/1389), after finding the
 vendored suite (first imported 2023-06-09) had already drifted from upstream — a file (`CqlAggregateTest.xml`)
 and two individual tests missing entirely, plus several hundred tests with locally-modified
 expectations.
@@ -35,7 +35,7 @@ which commit last touched that specific test, without the tool itself guessing a
 
 It does not modify any XML files. Many "differs from upstream" cases are **intentional
 spec-conformance fixes** (see the epic tracking this work,
-[#1193](https://github.com/FirelyTeam/firely-cql-sdk/issues/1193)) where the *local* expectation is
+[#1193](https://github.com/kairo-x26/firely-cql-sdk/issues/1193)) where the *local* expectation is
 the spec-correct one and upstream is wrong — the official suite's own `tests.html` page states the
 tests are "informative, not normative," so upstream should never be treated as automatically
 authoritative. Use judgment (and the linked git history) per finding.

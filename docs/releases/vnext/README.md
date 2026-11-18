@@ -2,7 +2,7 @@
 
 This folder holds one release-note fragment file per pull request, instead of everyone editing a
 single shared file and hitting merge conflicts
-(see [#1432](https://github.com/FirelyTeam/firely-cql-sdk/issues/1432)).
+(see [#1432](https://github.com/kairo-x26/firely-cql-sdk/issues/1432)).
 
 ## When to add one
 
@@ -49,7 +49,7 @@ The `##` heading you choose is the primary input to the next release's version l
 [versioning.md](../../versioning.md) has the rules, which are not repeated here.
 
 The one thing to watch: a `## Fixes` or `## Performance` fragment is not automatically a
-no-migration change. [#1568](https://github.com/FirelyTeam/firely-cql-sdk/pull/1568) was filed as
+no-migration change. [#1568](https://github.com/kairo-x26/firely-cql-sdk/pull/1568) was filed as
 `## Performance` with "no public API change" — both true — yet it changed whether in-place expansion
 edits are observed, which forces a MESO bump. If your change moves CQL evaluation results or
 `GeneratorToolVersion`, write that in the fragment text and let the release cut decide the level.

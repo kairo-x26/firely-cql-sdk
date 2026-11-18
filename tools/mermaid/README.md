@@ -74,6 +74,6 @@ lockfile needed). The Bash script additionally requires `git` (to locate the rep
 (gitignored, `--no-sandbox`) is created automatically on first run so rendering works headlessly in
 sandboxed/CI environments.
 
-**Created in:** [#1399](https://github.com/FirelyTeam/firely-cql-sdk/issues/1399), alongside the
+**Created in:** [#1399](https://github.com/kairo-x26/firely-cql-sdk/issues/1399), alongside the
 `docs/dependency-diagrams.md` accuracy fixes — adapted from
 [firely-dqm-libraries](https://github.com/FirelyTeam/firely-dqm-libraries/blob/main/devops/export-mermaid-svg.ps1).

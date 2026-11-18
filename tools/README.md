@@ -35,7 +35,7 @@ python3 tools/condense_spec/fetch_fhir_page.py <url> [<url> ...]
 
 **Documentation:** See [tools/condense_spec/README.md](condense_spec/README.md) for complete details.
 
-**Created in:** PR for "Experimental - Using AI to verify codebase conformance with CQL spec"; extended in [#1389](https://github.com/FirelyTeam/firely-cql-sdk/issues/1389) to add the FHIR fetch tool
+**Created in:** PR for "Experimental - Using AI to verify codebase conformance with CQL spec"; extended in [#1389](https://github.com/kairo-x26/firely-cql-sdk/issues/1389) to add the FHIR fetch tool
 
 ### mermaid
 
@@ -60,7 +60,7 @@ tools/mermaid/export-mermaid-svg.sh --markdown-path <doc.md> --source-path <diag
 [generate-svg-from-mermaid](../.claude/skills/generate-svg-from-mermaid/SKILL.md) skill for the
 authoring workflow.
 
-**Created in:** [#1399](https://github.com/FirelyTeam/firely-cql-sdk/issues/1399); adapted from
+**Created in:** [#1399](https://github.com/kairo-x26/firely-cql-sdk/issues/1399); adapted from
 [firely-dqm-libraries](https://github.com/FirelyTeam/firely-dqm-libraries/blob/main/devops/export-mermaid-svg.ps1).
 ### dqic_sync
 
@@ -77,7 +77,7 @@ python3 tools/dqic_sync/compare_dqic_tests.py --report-path /tmp/dqic-report.md
 
 **Documentation:** See [tools/dqic_sync/README.md](dqic_sync/README.md) for complete details.
 
-**Created in:** [#1389](https://github.com/FirelyTeam/firely-cql-sdk/issues/1389)
+**Created in:** [#1389](https://github.com/kairo-x26/firely-cql-sdk/issues/1389)
 
 ---
 
@@ -87,7 +87,7 @@ python3 tools/dqic_sync/compare_dqic_tests.py --report-path /tmp/dqic-report.md
 fetched from VSAC's FHIR `$expand`. It lives at `tools/vsac/complete_expansions.py` in
 `Firely.Cql.Sdk.Integration.Runner`, a **private** repository, because the corpus it maintains lives
 there and the refresh runs as part of that repository's sync procedure. Created in
-[#1562](https://github.com/FirelyTeam/firely-cql-sdk/issues/1562).
+[#1562](https://github.com/kairo-x26/firely-cql-sdk/issues/1562).
 
 ---
 

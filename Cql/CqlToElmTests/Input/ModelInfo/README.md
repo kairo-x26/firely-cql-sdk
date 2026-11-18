@@ -9,4 +9,4 @@ These are unmodified copies of the QICore and US Core model info files shipped i
 | `qicore-modelinfo-6.0.0.xml` | QICore 6.0.0 |
 | `uscore-modelinfo-6.1.0.xml` | US Core 6.1.0, required by QICore 6.0.0 |
 
-The [translator census](../Census/README.md) supplies them to the translator for the corpora written against QICore. They are test inputs only; [#1740](https://github.com/FirelyTeam/firely-cql-sdk/issues/1740) moves them into `Cql.Model`.
+The [translator census](../Census/README.md) supplies them to the translator for the corpora written against QICore. They are test inputs only; [#1740](https://github.com/kairo-x26/firely-cql-sdk/issues/1740) moves them into `Cql.Model`.

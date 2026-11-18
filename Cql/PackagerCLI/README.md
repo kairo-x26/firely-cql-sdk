@@ -220,7 +220,7 @@ to generate ELM files, and then use the `elm` command from this packager to proc
 (See the getting-started.md documentation for more information, and the [Java Tooling README](https://github.com/cqframework/clinical_quality_language/blob/master/Src/java/README.md#generate-an-elm-representation-of-cql-logic)).
 
 If you do use the `cql` command and encounter issues with the CQL to ELM conversion, 
-please log them in the [Firely CQL SDK issue tracker](https://github.com/FirelyTeam/firely-cql-sdk/issues).
+please log them in the [Firely CQL SDK issue tracker](https://github.com/kairo-x26/firely-cql-sdk/issues).
 
 The version of the Java Tooling that is used to generate the ELM files must be compatible with the version of the CQL Packager you are using.
 The Java tooling version is configured in `Demo/Cql/Build/Java-Dependencies-Vars.ps1` and should be kept in sync with the version referenced in this file's source code.
@@ -410,4 +410,4 @@ All commands return exit codes to indicate success or failure. The following exi
 
 ## Further Reading
 
-This package is part of the [Firely CQL SDK](https://github.com/FirelyTeam/firely-cql-sdk). For getting started, release notes, and contribution guidelines, see the [main README](../../README.md).
+This package is part of the [Firely CQL SDK](https://github.com/kairo-x26/firely-cql-sdk). For getting started, release notes, and contribution guidelines, see the [main README](../../README.md).

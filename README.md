@@ -19,7 +19,7 @@ Applications running on a later .NET version can consume that asset as usual; ap
 
 This is release version 2.18.0 of the engine.
 
-The release notes at [firely-cql-sdk/releases](https://github.com/FirelyTeam/firely-cql-sdk/releases) for each major version document changes and known issues.
+The release notes at [firely-cql-sdk/releases](https://github.com/kairo-x26/firely-cql-sdk/releases) for each major version document changes and known issues.
 
 ## Versioning
 
@@ -165,7 +165,7 @@ See [build/README.md](build/README.md) for complete CI/CD testing documentation 
 
 ## Support
 
-We actively monitor the issues coming in through the GitHub repository at [https://github.com/FirelyTeam/firely-cql-sdk/issues](https://github.com/FirelyTeam/firely-cql-sdk/issues). You are welcome to register your bugs and feature suggestions there. For questions and broader discussions, we use the [.NET FHIR Implementers chat][netsdk-zulip] and [CQL chat][cql-spec] on Zulip.
+We actively monitor the issues coming in through the GitHub repository at [https://github.com/kairo-x26/firely-cql-sdk/issues](https://github.com/kairo-x26/firely-cql-sdk/issues). You are welcome to register your bugs and feature suggestions there. For questions and broader discussions, we use the [.NET FHIR Implementers chat][netsdk-zulip] and [CQL chat][cql-spec] on Zulip.
 
 ## Contributing
 
@@ -173,7 +173,7 @@ We are welcoming contributions!
 
 If you want to participate in this project, we're using [Git Flow][nvie] for our branch management. Please submit PRs with changes against the `develop` branch.
 
-Current 2.x development is done against the `develop` branch, while hotfixes are done under the `support/1.x` branch. Please refer to our [Git Branching and Workflow Guidelines](https://github.com/FirelyTeam/firely-cql-sdk/wiki/Git-Branching-and-Workflow-Guidelines) on the wiki for detailed guidelines on git branching and naming conventions.
+Current 2.x development is done against the `develop` branch, while hotfixes are done under the `support/1.x` branch. Please refer to our [Git Branching and Workflow Guidelines](https://github.com/kairo-x26/firely-cql-sdk/wiki/Git-Branching-and-Workflow-Guidelines) on the wiki for detailed guidelines on git branching and naming conventions.
 
 [cql-spec]: https://cql.hl7.org/
 [netsdk-zulip]: https://chat.fhir.org/#narrow/stream/dotnet

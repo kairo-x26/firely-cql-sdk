@@ -91,4 +91,4 @@ This package is used by the CQL compiler and other runtime components to execute
 
 ## Further Reading
 
-This package is part of the [Firely CQL SDK](https://github.com/FirelyTeam/firely-cql-sdk). For getting started, release notes, and contribution guidelines, see the [main README](../../README.md).
+This package is part of the [Firely CQL SDK](https://github.com/kairo-x26/firely-cql-sdk). For getting started, release notes, and contribution guidelines, see the [main README](../../README.md).

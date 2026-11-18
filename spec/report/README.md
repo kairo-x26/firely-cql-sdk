@@ -5,8 +5,8 @@ AI-assisted CQL specification conformance analysis was performed against `spec/c
 GitHub issues rather than kept as markdown reports in this folder.
 
 Current status of every finding is tracked under epic
-[#1193 — CQL Specification Conformance Issues](https://github.com/FirelyTeam/firely-cql-sdk/issues/1193).
+[#1193 — CQL Specification Conformance Issues](https://github.com/kairo-x26/firely-cql-sdk/issues/1193).
 Treat that issue as the source of truth, not this folder — a prior version of this folder held
 detailed per-finding writeups that went stale relative to the linked issues within a couple of
 months, which is why they were removed (see
-[#1389](https://github.com/FirelyTeam/firely-cql-sdk/issues/1389)).
+[#1389](https://github.com/kairo-x26/firely-cql-sdk/issues/1389)).
